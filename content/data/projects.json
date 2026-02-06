@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": "keyphrase-extraction",
+      "title": "Keyphrase Extraction",
+      "description": "A Natural Language Processing (NLP) tool to extract the most relevant keyphrases from documents or user input, useful for summarization and SEO.",
+      "thumbnail": "/images/projects/keyphrase.svg",
+      "category": "AI/ML",
+      "featured": true,
+      "year": 2024,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi",
+      "technologies": ["Python", "NLP", "Machine Learning"]
+    },
+    {
+      "id": "spotify-clone",
+      "title": "Spotify Clone",
+      "description": "A fully responsive music streaming web app built with modern web technologies that mimics Spotify's core features such as authentication, playlists, and audio playback.",
+      "thumbnail": "/images/projects/spotify.svg",
+      "category": "Web Application",
+      "featured": true,
+      "year": 2024,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi",
+      "technologies": ["React", "Next.js", "Tailwind CSS", "Supabase"]
+    },
+    {
+      "id": "karirku",
+      "title": "Karirku",
+      "description": "A career planning platform that helps users explore professions, track goals, and connect with mentors—designed to guide young professionals in Indonesia.",
+      "thumbnail": "/images/projects/karirku.svg",
+      "category": "Web Application",
+      "featured": true,
+      "year": 2023,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi",
+      "technologies": ["React", "Node.js", "Firebase"]
+    }
+  ]
+}

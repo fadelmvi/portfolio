@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "Language & Frameworks",
+      "skills": [
+        { "name": "HTML", "icon": "html" },
+        { "name": "CSS", "icon": "css" },
+        { "name": "Sass", "icon": "sass" },
+        { "name": "Tailwind CSS", "icon": "tailwind" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "React", "icon": "react" },
+        { "name": "Next.js", "icon": "nextjs" },
+        { "name": "Angular", "icon": "angular" },
+        { "name": "Node.js", "icon": "nodejs" },
+        { "name": "Flutter", "icon": "flutter" }
+      ]
+    },
+    {
+      "name": "Database",
+      "skills": [
+        { "name": "Firebase", "icon": "firebase" },
+        { "name": "Elasticsearch", "icon": "elasticsearch" }
+      ]
+    },
+    {
+      "name": "Tools & Others",
+      "skills": [
+        { "name": "Git", "icon": "git" },
+        { "name": "Docker", "icon": "docker" },
+        { "name": "Keycloak", "icon": "keycloak" },
+        { "name": "Figma", "icon": "figma" }
+      ]
+    }
+  ]
+}
