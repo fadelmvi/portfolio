@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#18181b"/>
+  <rect x="50" y="50" width="700" height="350" rx="8" fill="#27272a"/>
+  <text x="400" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="600" fill="#a1a1aa">Spotify Clone</text>
+  <text x="400" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#71717a">React • Next.js • Supabase</text>
+</svg>
