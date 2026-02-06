@@ -3,6 +3,16 @@ import skillsData from "@/../content/data/skills.json";
 import experienceData from "@/../content/data/experience.json";
 import projectsData from "@/../content/data/projects.json";
 
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
+export function getBasePath(): string {
+  return basePath;
+}
+
+export function getAssetPath(path: string): string {
+  return `${basePath}${path}`;
+}
+
 export interface Profile {
   name: string;
   fullName: string;

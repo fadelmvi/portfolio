@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { ArrowDown, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getProfile } from "@/lib/content";
+import { getProfile, getAssetPath } from "@/lib/content";
 
 export function Hero() {
   const profile = getProfile();
@@ -72,7 +72,7 @@ export function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <a href={profile.resumeUrl} target="_blank" rel="noopener noreferrer">
+            <a href={getAssetPath(profile.resumeUrl)} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <FileText size={20} />
                 Get My Resume

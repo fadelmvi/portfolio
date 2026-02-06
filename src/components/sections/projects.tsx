@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Section, SectionHeader } from "@/components/layout/section";
-import { getProjects } from "@/lib/content";
+import { getProjects, getAssetPath } from "@/lib/content";
 
 export function Projects() {
   const projects = getProjects();
@@ -34,7 +34,7 @@ export function Projects() {
             <Card className="group h-full hover:border-zinc-700 hover:bg-zinc-900/80">
               <div className="relative aspect-video overflow-hidden rounded-t-xl bg-zinc-800">
                 <Image
-                  src={project.thumbnail}
+                  src={getAssetPath(project.thumbnail)}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
