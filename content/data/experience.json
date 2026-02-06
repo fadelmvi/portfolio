@@ -1,0 +1,39 @@
+{
+  "experiences": [
+    {
+      "id": "defenxor",
+      "company": "Defenxor",
+      "role": "Frontend Developer",
+      "type": "Full-time",
+      "startDate": "2023-03",
+      "endDate": null,
+      "current": true,
+      "location": "Indonesia",
+      "description": "Building security-focused internal tools and applications.",
+      "highlights": [
+        "Assisted in developing internal tools to enhance productivity within the company",
+        "Contributed to the creation of security-related tools",
+        "Conducted research to identify tools that streamline security team tasks",
+        "Developed applications tailored to the specific needs of the security team"
+      ],
+      "technologies": ["React", "TypeScript", "Next.js"]
+    },
+    {
+      "id": "pasarpolis",
+      "company": "Pasarpolis",
+      "role": "Frontend Developer",
+      "type": "Full-time",
+      "startDate": "2021-01",
+      "endDate": "2023-02",
+      "current": false,
+      "location": "Indonesia",
+      "description": "Developed insurance technology platform features.",
+      "highlights": [
+        "Built and maintained web applications for insurance services",
+        "Collaborated with cross-functional teams to deliver product features",
+        "Improved user experience and performance of web applications"
+      ],
+      "technologies": ["React", "JavaScript", "CSS"]
+    }
+  ]
+}
