@@ -1,40 +1,76 @@
 {
   "projects": [
     {
-      "id": "keyphrase-extraction",
-      "title": "Keyphrase Extraction",
-      "description": "A Natural Language Processing (NLP) tool to extract the most relevant keyphrases from documents or user input, useful for summarization and SEO.",
-      "thumbnail": "/images/projects/keyphrase.svg",
+      "id": "mindora",
+      "title": "Mindora",
+      "description": "A project tracking management app with a full-stack architecture, Docker setup, and a separate backend structure.",
+      "thumbnail": "/images/projects/mindora.png",
+      "category": "Private Project",
+      "featured": true,
+      "year": 2026,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/mindora",
+      "technologies": ["TypeScript", "Web Development"]
+    },
+    {
+      "id": "lingoria",
+      "title": "Lingoria",
+      "description": "An automatic Indonesian-English Telegram translation bot with translation modes, chat settings, and Docker deployment.",
+      "thumbnail": "/images/projects/lingoria.svg",
+      "category": "Private Project",
+      "featured": true,
+      "year": 2026,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/lingoria",
+      "technologies": ["JavaScript", "Web Development"]
+    },
+    {
+      "id": "jagomua",
+      "title": "Jagomua",
+      "description": "A finance and booking platform for makeup artists built with Next.js, Express, Prisma, Firebase Auth, and PostgreSQL.",
+      "thumbnail": "/images/projects/jagomua.svg",
+      "category": "Private Project",
+      "featured": true,
+      "year": 2026,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/jagomua",
+      "technologies": ["TypeScript", "Web Development"]
+    },
+    {
+      "id": "historia",
+      "title": "Historia",
+      "description": "A Telegram bot and web dashboard to automatically log daily expenses from natural Indonesian-language messages.",
+      "thumbnail": "/images/projects/historia.png",
+      "category": "Private Project",
+      "featured": false,
+      "year": 2026,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/historia",
+      "technologies": ["Python", "Automation"]
+    },
+    {
+      "id": "keyphrase-extraction-with-textrank",
+      "title": "Keyphrase Extraction with TextRank",
+      "description": "A Flask-based REST API for automatic keyphrase extraction from Indonesian text using the TextRank algorithm.",
+      "thumbnail": "/images/projects/keyphrase-textrank.svg",
       "category": "AI/ML",
-      "featured": true,
-      "year": 2024,
+      "featured": false,
+      "year": 2026,
       "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi",
-      "technologies": ["Python", "NLP", "Machine Learning"]
+      "githubUrl": "https://github.com/fadelmvi/keyphrase-extraction-with-textrank",
+      "technologies": ["Python", "NLP", "TextRank"]
     },
     {
-      "id": "spotify-clone",
-      "title": "Spotify Clone",
-      "description": "A fully responsive music streaming web app built with modern web technologies that mimics Spotify's core features such as authentication, playlists, and audio playback.",
-      "thumbnail": "/images/projects/spotify.svg",
-      "category": "Web Application",
-      "featured": true,
-      "year": 2024,
+      "id": "secretplace",
+      "title": "Secret Place",
+      "description": "A private mental health consultation app that connects users with psychologists and supports anonymous story sharing.",
+      "thumbnail": "/images/projects/secret%20place.png",
+      "category": "Private Project",
+      "featured": false,
+      "year": 2022,
       "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi",
-      "technologies": ["React", "Next.js", "Tailwind CSS", "Supabase"]
-    },
-    {
-      "id": "karirku",
-      "title": "Karirku",
-      "description": "A career planning platform that helps users explore professions, track goals, and connect with mentors—designed to guide young professionals in Indonesia.",
-      "thumbnail": "/images/projects/karirku.svg",
-      "category": "Web Application",
-      "featured": true,
-      "year": 2023,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi",
-      "technologies": ["React", "Node.js", "Firebase"]
+      "githubUrl": "https://github.com/fadelmvi/secretplace",
+      "technologies": ["JavaScript", "Web Application", "Mental Health"]
     }
   ]
 }

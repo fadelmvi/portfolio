@@ -20,7 +20,8 @@
       "name": "Database",
       "skills": [
         { "name": "Firebase", "icon": "firebase" },
-        { "name": "Elasticsearch", "icon": "elasticsearch" }
+        { "name": "Elasticsearch", "icon": "elasticsearch" },
+        { "name": "PostgreSQL", "icon": "postgresql" }
       ]
     },
     {

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio 2026</title>
+  <desc id="desc">Project thumbnail for Portfolio 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="120" y="110" width="960" height="455" rx="24" fill="#0b1220" opacity="0.5" />
+  <text x="170" y="330" fill="#ecfeff" font-family="Verdana, sans-serif" font-size="90" font-weight="700">Portfolio</text>
+  <text x="176" y="395" fill="#5eead4" font-family="Verdana, sans-serif" font-size="36">TypeScript · Next.js · 2026</text>
+</svg>

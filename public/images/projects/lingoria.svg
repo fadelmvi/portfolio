@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Lingoria</title>
+  <desc id="desc">Project thumbnail for Lingoria.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="80" y="80" width="1040" height="515" rx="28" fill="#22c55e" opacity="0.14" />
+  <text x="110" y="360" fill="#f3f4f6" font-family="Verdana, sans-serif" font-size="86" font-weight="700">Lingoria</text>
+  <text x="114" y="420" fill="#86efac" font-family="Verdana, sans-serif" font-size="34">Private Project · 2026</text>
+</svg>

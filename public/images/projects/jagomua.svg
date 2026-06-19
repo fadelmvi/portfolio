@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Jagomua</title>
+  <desc id="desc">Project thumbnail for Jagomua.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <path d="M0 520 C250 450 450 620 700 540 C900 475 1030 560 1200 500 L1200 675 L0 675 Z" fill="#f59e0b" opacity="0.2"/>
+  <text x="90" y="350" fill="#f9fafb" font-family="Verdana, sans-serif" font-size="86" font-weight="700">Jagomua</text>
+  <text x="94" y="412" fill="#fcd34d" font-family="Verdana, sans-serif" font-size="34">Private Project · 2026</text>
+</svg>

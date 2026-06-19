@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Mindora</title>
+  <desc id="desc">Project thumbnail for Mindora.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <circle cx="180" cy="120" r="140" fill="#14b8a6" opacity="0.2" />
+  <circle cx="1040" cy="560" r="190" fill="#3b82f6" opacity="0.18" />
+  <text x="90" y="360" fill="#e5e7eb" font-family="Verdana, sans-serif" font-size="86" font-weight="700">Mindora</text>
+  <text x="94" y="420" fill="#93c5fd" font-family="Verdana, sans-serif" font-size="34">Private Project · 2026</text>
+</svg>

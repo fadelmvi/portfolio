@@ -15,11 +15,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fadel Muhammad | Frontend Developer",
+  title: "Fadel Muhammad | Software Engineer",
   description:
-    "Frontend Developer passionate about problem-solving and building for the web and mobile platforms.",
+    "Software Engineer passionate about problem-solving and building for the web and mobile platforms.",
   keywords: [
-    "Frontend Developer",
+    "Software Engineer",
     "React",
     "Next.js",
     "TypeScript",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Fadel Muhammad" }],
   openGraph: {
-    title: "Fadel Muhammad | Frontend Developer",
+    title: "Fadel Muhammad | Software Engineer",
     description:
-      "Frontend Developer passionate about problem-solving and building for the web and mobile platforms.",
+      "Software Engineer passionate about problem-solving and building for the web and mobile platforms.",
     type: "website",
   },
 };

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Historia</title>
+  <desc id="desc">Project thumbnail for Historia.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="100%" stop-color="#1c2541" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <rect x="100" y="120" width="340" height="420" rx="18" fill="#5bc0be" opacity="0.2" />
+  <text x="500" y="335" fill="#f8fafc" font-family="Verdana, sans-serif" font-size="82" font-weight="700">Historia</text>
+  <text x="504" y="395" fill="#99f6e4" font-family="Verdana, sans-serif" font-size="32">Private Project · 2026</text>
+</svg>

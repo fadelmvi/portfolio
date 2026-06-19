@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Keyphrase Extraction with TextRank</title>
+  <desc id="desc">Project thumbnail for Keyphrase Extraction with TextRank.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <g fill="#38bdf8" opacity="0.18">
+    <circle cx="180" cy="150" r="70" />
+    <circle cx="290" cy="230" r="50" />
+    <circle cx="390" cy="150" r="40" />
+    <circle cx="1040" cy="160" r="90" />
+  </g>
+  <text x="90" y="330" fill="#f8fafc" font-family="Verdana, sans-serif" font-size="66" font-weight="700">Keyphrase Extraction</text>
+  <text x="90" y="395" fill="#93c5fd" font-family="Verdana, sans-serif" font-size="40">with TextRank · Public Repo</text>
+</svg>
