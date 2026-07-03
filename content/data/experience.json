@@ -34,6 +34,37 @@
         "Improved user experience and performance of web applications"
       ],
       "technologies": ["React", "JavaScript", "CSS"]
+    },
+    {
+      "id": "gigih-2-0",
+      "company": "Yayasan Anak Bangsa Bisa",
+      "role": "Generasi GIGIH 2.0 by YABB & GoTo Track Frontend Engineering",
+      "type": "Apprenticeship",
+      "startDate": "2022-02",
+      "endDate": "2022-07",
+      "current": false,
+      "location": "Indonesia",
+      "description": "Study Independent from Kampus Merdeka.",
+      "highlights": [
+        "Learned React for building interfaces",
+        "Completed assigned daily tasks and final projects",
+        "Took part in English training at Cakap",
+        "Took a soft skills class"
+      ],
+      "technologies": ["React", "JavaScript"]
+    },
+    {
+      "id": "ai-4-startup",
+      "company": "Orbit Future Academy",
+      "role": "AI 4 Startup",
+      "type": "Program",
+      "startDate": "2021-08",
+      "endDate": "2022-02",
+      "current": false,
+      "location": "Indonesia",
+      "description": "Program focused on AI for startups.",
+      "highlights": [],
+      "technologies": []
     }
   ]
 }

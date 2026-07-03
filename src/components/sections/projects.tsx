@@ -1,15 +1,23 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "motion/react";
 import Image from "next/image";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ChevronDown, ChevronUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Section, SectionHeader } from "@/components/layout/section";
 import { getProjects, getAssetPath } from "@/lib/content";
 
+const INITIAL_VISIBLE_COUNT = 6;
+
 export function Projects() {
   const projects = getProjects();
+  const [showAll, setShowAll] = useState(false);
+  const visibleProjects = showAll
+    ? projects
+    : projects.slice(0, INITIAL_VISIBLE_COUNT);
 
   return (
     <Section id="projects" className="bg-zinc-950">
@@ -19,7 +27,7 @@ export function Projects() {
       />
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project, index) => (
+        {visibleProjects.map((project, index) => (
           <motion.div
             key={project.id}
             initial={{ opacity: 0, y: 30 }}
@@ -89,6 +97,24 @@ export function Projects() {
           </motion.div>
         ))}
       </div>
+
+      {projects.length > INITIAL_VISIBLE_COUNT && (
+        <div className="mt-10 flex justify-center">
+          <Button variant="outline" onClick={() => setShowAll((prev) => !prev)}>
+            {showAll ? (
+              <>
+                Show Less
+                <ChevronUp size={18} />
+              </>
+            ) : (
+              <>
+                Show More
+                <ChevronDown size={18} />
+              </>
+            )}
+          </Button>
+        </div>
+      )}
     </Section>
   );
 }

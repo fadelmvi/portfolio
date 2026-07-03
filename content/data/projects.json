@@ -4,7 +4,7 @@
       "id": "mindora",
       "title": "Mindora",
       "description": "A project tracking management app with a full-stack architecture, Docker setup, and a separate backend structure.",
-      "thumbnail": "/images/projects/mindora.png",
+      "thumbnail": "/images/projects/mindora-3.jpeg",
       "category": "Private Project",
       "featured": true,
       "year": 2026,
@@ -40,7 +40,7 @@
       "id": "historia",
       "title": "Historia",
       "description": "A Telegram bot and web dashboard to automatically log daily expenses from natural Indonesian-language messages.",
-      "thumbnail": "/images/projects/historia.png",
+      "thumbnail": "/images/projects/historia-1.jpeg",
       "category": "Private Project",
       "featured": false,
       "year": 2026,
@@ -71,6 +71,66 @@
       "liveUrl": null,
       "githubUrl": "https://github.com/fadelmvi/secretplace",
       "technologies": ["JavaScript", "Web Application", "Mental Health"]
+    },
+    {
+      "id": "nyampah-app",
+      "title": "Nyampah App",
+      "description": "A Flutter-based mobile app for waste management, helping users sort and manage trash more effectively.",
+      "thumbnail": "/images/projects/nyampah-app.svg",
+      "category": "Mobile App",
+      "featured": false,
+      "year": 2023,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/nyampah-app",
+      "technologies": ["Dart", "Flutter", "Mobile Development"]
+    },
+    {
+      "id": "karirku",
+      "title": "Karirku",
+      "description": "A website to help users choose a career that suits their abilities, featuring internship recommendations that match their skills, built with React.js.",
+      "thumbnail": "/images/projects/karirku.svg",
+      "category": "Web Development",
+      "featured": false,
+      "year": 2022,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/karirku",
+      "technologies": ["JavaScript", "React", "Web Development"]
+    },
+    {
+      "id": "campusio",
+      "title": "Campusio",
+      "description": "A consultation platform connecting users with quality mentors from top universities to help shape their career path.",
+      "thumbnail": "/images/projects/campusio.svg",
+      "category": "Private Project",
+      "featured": false,
+      "year": 2022,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/campusio",
+      "technologies": ["JavaScript", "Web Development"]
+    },
+    {
+      "id": "ecommerce-ui",
+      "title": "Ecommerce UI",
+      "description": "A user interface implementation for an e-commerce platform, focused on clean design and product browsing experience.",
+      "thumbnail": "/images/projects/ecommerce-ui.svg",
+      "category": "Web Development",
+      "featured": false,
+      "year": 2021,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/ecommerce-ui",
+      "technologies": ["JavaScript", "UI/UX", "Web Development"]
+    },
+    {
+      "id": "tiketkita",
+      "title": "TiketKita",
+      "description": "A ticket buying and selling platform connecting ticket buyers with sellers.",
+      "thumbnail": "/images/projects/tiketkita.svg",
+      "category": "Web Development",
+      "featured": false,
+      "year": 2021,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/fadelmvi/tiketkita",
+      "technologies": ["PHP", "Web Development"]
     }
   ]
 }

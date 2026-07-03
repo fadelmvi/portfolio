@@ -1,14 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Lingoria</title>
-  <desc id="desc">Project thumbnail for Lingoria.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#111827" />
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="675" fill="url(#bg)" />
-  <rect x="80" y="80" width="1040" height="515" rx="28" fill="#22c55e" opacity="0.14" />
-  <text x="110" y="360" fill="#f3f4f6" font-family="Verdana, sans-serif" font-size="86" font-weight="700">Lingoria</text>
-  <text x="114" y="420" fill="#86efac" font-family="Verdana, sans-serif" font-size="34">Private Project · 2026</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#18181b"/>
+  <rect x="50" y="50" width="700" height="350" rx="8" fill="#27272a"/>
+  <text x="400" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" font-weight="600" fill="#a1a1aa">Lingoria</text>
+  <text x="400" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" fill="#71717a">Telegram Bot • Translation</text>
 </svg>
+
