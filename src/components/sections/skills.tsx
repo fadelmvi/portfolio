@@ -1,53 +1,49 @@
-"use client";
-
-import { motion } from "motion/react";
-import { Section, SectionHeader } from "@/components/layout/section";
+import { Code2, Database, Wrench, ArrowUpRight } from "lucide-react";
 import { getSkills } from "@/lib/content";
-
+const icons = [Code2, Database, Wrench];
 export function Skills() {
-  const skillsData = getSkills();
-
   return (
-    <Section id="skills" className="bg-zinc-900/30">
-      <SectionHeader title="Skills" />
-
-      <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-        {skillsData.categories.map((category, categoryIndex) => (
-          <motion.div
-            key={category.name}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
-            transition={{
-              duration: 0.5,
-              delay: categoryIndex * 0.1,
-              ease: [0.21, 0.47, 0.32, 0.98],
-            }}
-          >
-            <h3 className="text-lg font-semibold text-white mb-6">
-              {category.name}
-            </h3>
-            <div className="flex flex-wrap gap-3">
-              {category.skills.map((skill, skillIndex) => (
-                <motion.div
-                  key={skill.name}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{
-                    duration: 0.3,
-                    delay: categoryIndex * 0.1 + skillIndex * 0.05,
-                  }}
-                  whileHover={{ scale: 1.05 }}
-                  className="px-4 py-2 rounded-lg bg-zinc-800/50 border border-zinc-700/50 text-zinc-300 text-sm font-medium hover:border-zinc-600 hover:bg-zinc-800 transition-all cursor-default"
-                >
-                  {skill.name}
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        ))}
+    <section id="skills" className="skills-section">
+      <div className="shell content-section">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">
+              <span>03 /</span> MY TOOLKIT
+            </p>
+            <h2>
+              The tools behind
+              <br />
+              the possibilities<span>.</span>
+            </h2>
+          </div>
+          <p>
+            The right technology for the right problem.
+            <br className="desktop-break" /> Here’s what I work with.
+          </p>
+        </div>
+        <div className="skills-grid">
+          {getSkills().categories.map((c, i) => {
+            const Icon = icons[i] || Code2;
+            return (
+              <article className="skill-card" key={c.name}>
+                <div className="skill-card-top">
+                  <Icon size={25} />
+                  <span>0{i + 1}</span>
+                </div>
+                <h3>{c.name}</h3>
+                <div className="skill-items">
+                  {c.skills.map((s) => (
+                    <span key={s.name}>
+                      {s.name}
+                      <ArrowUpRight size={12} />
+                    </span>
+                  ))}
+                </div>
+              </article>
+            );
+          })}
+        </div>
       </div>
-    </Section>
+    </section>
   );
 }
