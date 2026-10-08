@@ -1,18 +1,6 @@
 {
   "projects": [
     {
-      "id": "mindora",
-      "title": "Mindora",
-      "description": "A project tracking management app with a full-stack architecture, Docker setup, and a separate backend structure.",
-      "thumbnail": "/images/projects/mindora-3.jpeg",
-      "category": "Private Project",
-      "featured": true,
-      "year": 2026,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi/mindora",
-      "technologies": ["TypeScript", "Web Development"]
-    },
-    {
       "id": "lingoria",
       "title": "Lingoria",
       "description": "An automatic Indonesian-English Telegram translation bot with translation modes, chat settings, and Docker deployment.",
@@ -23,30 +11,6 @@
       "liveUrl": null,
       "githubUrl": "https://github.com/fadelmvi/lingoria",
       "technologies": ["JavaScript", "Web Development"]
-    },
-    {
-      "id": "jagomua",
-      "title": "Jagomua",
-      "description": "A finance and booking platform for makeup artists built with Next.js, Express, Prisma, Firebase Auth, and PostgreSQL.",
-      "thumbnail": "/images/projects/jagomua.svg",
-      "category": "Private Project",
-      "featured": true,
-      "year": 2026,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi/jagomua",
-      "technologies": ["TypeScript", "Web Development"]
-    },
-    {
-      "id": "historia",
-      "title": "Historia",
-      "description": "A Telegram bot and web dashboard to automatically log daily expenses from natural Indonesian-language messages.",
-      "thumbnail": "/images/projects/historia-1.jpeg",
-      "category": "Private Project",
-      "featured": false,
-      "year": 2026,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/fadelmvi/historia",
-      "technologies": ["Python", "Automation"]
     },
     {
       "id": "keyphrase-extraction-with-textrank",

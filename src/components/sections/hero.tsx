@@ -67,8 +67,8 @@ export function Hero() {
           <div className="studio-heading"><span>THE BUILDER’S DESK</span><Asterisk size={26} /></div>
           <div className="studio-statement">Small details.<br />Big possibilities.</div>
           <div className="studio-window">
-            <div className="studio-toolbar"><span><i /><i /><i /></span><span>mindora / workspace</span><ArrowUpRight size={13} /></div>
-            <div className="studio-screen"><Image src={getAssetPath("/images/projects/mindora-1.jpeg")} alt="Mindora activity report and assistant interface" fill sizes="(max-width: 700px) 85vw, 440px" priority /></div>
+            <div className="studio-toolbar"><span><i /><i /><i /></span><span>selected work / preview</span><ArrowUpRight size={13} /></div>
+            <div className="studio-screen"><Image src={getAssetPath("/images/projects/secret%20place.png")} alt="Selected project interface preview" fill sizes="(max-width: 700px) 85vw, 440px" priority /></div>
           </div>
           <div className="studio-sticker"><span>&lt;/&gt;</span> MADE OF CURIOSITY<br />& A LITTLE CODE.</div>
           <div className="studio-footer"><span>IDEA → BUILD → ITERATE</span><span>01 / 2026</span></div>
