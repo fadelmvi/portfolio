@@ -9,7 +9,7 @@ export function Experience() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">
-            <span>02 /</span> THE JOURNEY
+            <span>01 /</span> THE JOURNEY
           </p>
           <h2>
             Always building.
@@ -54,11 +54,6 @@ export function Experience() {
                   </ul>
                 </details>
               )}
-            </div>
-            <div className="tags experience-tags">
-              {e.technologies.map((t) => (
-                <span key={t}>{t}</span>
-              ))}
             </div>
           </article>
         ))}
