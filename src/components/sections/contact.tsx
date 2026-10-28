@@ -24,13 +24,6 @@ export function Contact() {
             <ArrowUpRight size={24} />
           </a>
         </div>
-        <a
-          className="contact-circle"
-          href={`mailto:${p.email}`}
-          aria-label="Send Fadel an email"
-        >
-          <ArrowUpRight size={58} strokeWidth={1} />
-        </a>
       </div>
     </section>
   );
