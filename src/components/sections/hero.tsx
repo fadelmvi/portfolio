@@ -1,16 +1,9 @@
-import Image from "next/image";
-import { ArrowDown, ArrowUpRight, Github, Linkedin, Asterisk } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Github, Linkedin } from "lucide-react";
 import { getProfile, getAssetPath } from "@/lib/content";
 export function Hero() {
   const p = getProfile();
   return (
     <section id="home" className="hero shell">
-      <div className="hero-top">
-        <span className="eyebrow">INDEPENDENT MIND. ENGINEERING FOCUS.</span>
-        <span className="eyebrow hero-coordinate">
-          BASED IN {p.location.toUpperCase()}
-        </span>
-      </div>
       <div className="hero-layout">
         <div className="hero-copy">
           {p.available && (
@@ -59,26 +52,24 @@ export function Hero() {
             >
               <Linkedin size={18} />
             </a>
-            <i />
-            <span>WEB & MOBILE</span>
           </div>
         </div>
-        <a className="studio-preview" href="#projects" aria-label="Explore my selected projects">
-          <div className="studio-heading"><span>THE BUILDER’S DESK</span><Asterisk size={26} /></div>
-          <div className="studio-statement">Small details.<br />Big possibilities.</div>
-          <div className="studio-window">
-            <div className="studio-toolbar"><span><i /><i /><i /></span><span>selected work / preview</span><ArrowUpRight size={13} /></div>
-            <div className="studio-screen"><Image src={getAssetPath("/images/projects/secret%20place.png")} alt="Selected project interface preview" fill sizes="(max-width: 700px) 85vw, 440px" priority /></div>
+        <aside className="hero-aside" aria-label="Profile overview">
+          <div className="hero-highlight">
+            <span>DEV</span>
+            <p>Software engineer</p>
           </div>
-          <div className="studio-sticker"><span>&lt;/&gt;</span> MADE OF CURIOSITY<br />& A LITTLE CODE.</div>
-          <div className="studio-footer"><span>IDEA → BUILD → ITERATE</span><span>01 / 2026</span></div>
-        </a>
-      </div>
-      <div className="hero-bottom">
-        <span>CRAFTED WITH INTENTION. DRIVEN BY CURIOSITY.</span>
-        <a href="#projects">
-          SCROLL TO EXPLORE <ArrowDown size={14} />
-        </a>
+          <div className="hero-aside-details">
+            <div>
+              <span>FOCUS</span>
+              <p>Web &amp; mobile</p>
+            </div>
+            <div>
+              <span>BASED IN</span>
+              <p>{p.location}</p>
+            </div>
+          </div>
+        </aside>
       </div>
     </section>
   );

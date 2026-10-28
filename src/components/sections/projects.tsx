@@ -11,7 +11,7 @@ export function Projects() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">
-            <span>01 /</span> SELECTED WORK
+            <span>03 /</span> SELECTED WORK
           </p>
           <h2>
             Selected work<span>.</span>
@@ -23,7 +23,7 @@ export function Projects() {
         </p>
       </div>
       <div className="project-grid" id="project-grid">
-        {(showAll ? projects : projects.slice(0, 4)).map((p, i) => (
+        {(showAll ? projects : projects.slice(0, 4)).map((p) => (
           <article className={`project-card project-${p.id}`} key={p.id}>
             <div className="project-image">
               {p.thumbnail.endsWith(".svg") ? (
@@ -40,7 +40,6 @@ export function Projects() {
                 </div>
               ) : (
                 <div className="project-browser">
-                  <div className="project-browser-bar"><span>● ● ●</span><span>{p.title.toLowerCase()} / preview</span><ArrowUpRight size={12} /></div>
                   <div className="project-screen"><Image
                     src={getAssetPath(p.thumbnail)}
                     alt={`${p.title} project preview`}
@@ -50,14 +49,13 @@ export function Projects() {
                   /></div>
                 </div>
               )}
-              <span className="project-number">
-                {String(i + 1).padStart(2, "0")} / {p.year}
-              </span>
-              {p.featured && <span className="featured-label">SELECTED</span>}
             </div>
             <div className="project-info">
               <div className="project-title">
                 <h3>{p.title}</h3>
+                <span className="project-year">
+                  {p.year}{p.featured ? " · Featured" : ""}
+                </span>
                 <div className="project-links">
                   {p.githubUrl && (
                     <a
