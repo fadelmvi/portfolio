@@ -8,7 +8,7 @@ export function Skills() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">
-              <span>03 /</span> MY TOOLKIT
+              <span>02 /</span> MY TOOLKIT
             </p>
             <h2>
               The tools behind

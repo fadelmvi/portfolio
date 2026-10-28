@@ -11,7 +11,7 @@ export function Projects() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">
-            <span>01 /</span> SELECTED WORK
+            <span>03 /</span> SELECTED WORK
           </p>
           <h2>
             Selected work<span>.</span>
